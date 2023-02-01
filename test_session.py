@@ -20,5 +20,5 @@ def test_add_negative():
 # Now check if it correctly produces error when provided so
 def test_add_string_expect_exception():
     with pytest.raises(TypeError):
-        add_numbers(4, 'I do not belong here')
+        add_numbers(4, 2)
 
