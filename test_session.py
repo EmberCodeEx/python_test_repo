@@ -12,6 +12,7 @@ def test_add_positive():
 def test_add_zero():
     assert add_numbers(1,0) == 1
 
+    
 # Check with negative numbers
 def test_add_negative():
     assert add_numbers(4, -100) == -96
